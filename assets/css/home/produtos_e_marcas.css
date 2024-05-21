@@ -1,0 +1,38 @@
+.produtos-e-marcas{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;  
+}
+
+.titulos-produtos{
+    color: #585858;
+}
+
+.img-marcas{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    height: 15%;
+}
+
+.marca_info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.img_marca{
+    object-fit: contain;
+    height: 100%;
+}
+
+.divisoria{
+    margin-top: 50px;
+    width: 90%;
+    border: solid 1px rgb(243, 243, 243);
+}
