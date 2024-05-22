@@ -17,9 +17,12 @@
 }
 
 .carrossel_movable_box{
-    border: 1px solid black;    
+    position: relative;
+    display: flex;
+    border: 1px solid blue;    
     height: 99%;
-    width: 100%;
+    transition: 0.5s ease;
+    width: 40vw;
 }
 
 .carrossel_button{
@@ -46,7 +49,7 @@
     justify-content: flex-start;
     width: 80%;
     height: 100%;
-    overflow: hidden;
+ 
 }
 
 .carrossel_item{

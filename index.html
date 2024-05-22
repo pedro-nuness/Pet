@@ -50,14 +50,15 @@
         </nav>
             
             <div class="boxcategorias">
-                <div class="categoria">Cachorro</div>
+                <div class="categoria" data-filter="cachorro">Cachorro</div>
+                   
+
                 <div class="categoria">Gato</div>
                 <div class="categoria">Áves</div>
                 <div class="categoria">Peixes</div>
                 <div class="categoria">Produtos</div>
                 </div>
-            </div>
-            
+            </div>     
     </section>
      
 
@@ -85,7 +86,7 @@
         
         <div class="carrossel">
             <div class="carrossel_button_div">
-               <button class="carrossel_button" onclick='MoveCarrossel("promo_carrossel", 0)'>
+               <button class="carrossel_button" onclick='MoveCarrossel(0, 0)'>
                     <span class="material-symbols-outlined">
                         <span class="material-symbols-outlined">
                             arrow_back_ios
@@ -100,7 +101,7 @@
                 </div>
             </div>
             <div class="carrossel_button_div">
-                <button class="carrossel_button" onclick='MoveCarrossel("promo_carrossel", 1)'>
+                <button class="carrossel_button" onclick='MoveCarrossel(0, 1)'>
                     <span class="material-symbols-outlined">
                         arrow_forward_ios
                     </span>
