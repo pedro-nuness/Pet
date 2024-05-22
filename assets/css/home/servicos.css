@@ -1,0 +1,31 @@
+.servicos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2%;
+   
+    width: 100%;
+}
+
+.servico{
+    color: #3e3e3e;
+    font-family: "Concert One", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    height: 10vh;
+   
+    border-radius: 15px;
+    background: rgb(90,144,180);
+    background: linear-gradient(45deg, #E4EAEF 15%, #F5F5F5 19%);
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.servico:hover{
+    box-shadow: 0px 0px 10px rgb(76, 76, 76) ;
+    transition: 0.5s ease;
+}

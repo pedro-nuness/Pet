@@ -5,7 +5,7 @@
     flex-direction: column;
     height: 25vh;
     width: 100%;
-    background-color: #ffffff;
+    background-color: rgb(248, 248, 248);
 }
 
 
@@ -13,7 +13,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #FFFFFF;
+    background-color: transparent;
     height: 40%;
     width: 100%;
 }
@@ -57,6 +57,7 @@
     border-radius: 15px;
     outline: none;
     border: 0px;
+    background-color: transparent;
 
 }
 

@@ -1,0 +1,55 @@
+.carrossel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+
+    width: 99%;
+}
+
+.carrossel_button_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    height: 100%;
+
+}
+
+.carrossel_movable_box{
+    border: 1px solid black;    
+    height: 99%;
+    width: 100%;
+}
+
+.carrossel_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%; 
+    background-color: transparent; 
+    outline: none;
+    border: 0px;
+    transition: 0.5s ease;
+}
+
+.carrossel_button:hover{
+    transform: scale(1.2);
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+
+.carrossel_container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 80%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.carrossel_item{
+    border: 1px solid red;
+    height: 100%;
+}
