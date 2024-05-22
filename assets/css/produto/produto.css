@@ -1,0 +1,24 @@
+.product_area{
+    padding: 2%;
+    border: 1px solid black;
+    width: 90%;
+    height: 50vh;
+
+}
+
+.product_area_main{
+    height: 100%;
+    width: 60%;
+    border: 1px solid black;
+}
+
+.product_area_title{
+
+}
+
+
+.product_area_img{
+    height: 60%;
+    width: 50%;
+    border: 1px solid black;
+}

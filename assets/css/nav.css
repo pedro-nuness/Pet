@@ -107,3 +107,52 @@
     object-fit: contain;
     height: 100%;
 }
+
+.boxcategorias {
+    width: 66%;
+    margin-top: 30px;
+    gap: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+h2{
+    font-weight: 500;
+}
+
+
+.categoria{
+    display: grid;
+    place-items: center;
+    background-color: transparent;
+    border-radius: 10px;
+    transition: 0.5s ease;
+    transform: scale(1);
+    cursor: pointer;
+}
+
+.categoria:hover,textarea{
+    font-weight: 500;
+    transition: 0.5s ease;
+    transform: scale(1.2);
+}
+
+.box_filtros {
+    display: flex; 
+    align-items: center;
+    justify-content: space-around;
+    width: 66%;
+    height: 20vh;
+    margin-bottom: 1%;
+}
+
+/* Estilo dos filtros */
+.filtro {
+    position: absolute;
+    display: flex;
+    border: 1px solid black;
+    width: 15%;
+    height: 100%;
+}

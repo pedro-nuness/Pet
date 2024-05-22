@@ -1,8 +1,6 @@
 @import url(../nav.css);
-@import url(servicos.css);
-@import url(carrossel.css);
-@import url(infos.css);
 @import url(../footer.css);
+@import url(produto.css);
 
 body, html{
     margin: 0px;
