@@ -1,7 +1,8 @@
 @import url(nav.css);
-@import url(home/categorias.css);
-@import url(home/servicos.css);
-@import url(home/carrossel.css);
+@import url(categorias.css);
+@import url(servicos.css);
+@import url(carrossel.css);
+@import url(infos.css);
 
 body, html{
     margin: 0px;

@@ -5,10 +5,13 @@ let CarrosselItems = document.getElementsByClassName("carrossel_item");
 const Items = [
     [   
         {
-            imagem: "assets/img/bag.png",
+            imagem: "assets/img/bahno&tosa.jpg",
         },
         {
-            imagem: "assets/img/user.png",
+            imagem: "assets/img/veterinario.jpg",
+        },
+        {
+            imagem: "assets/img/petshop.jpg",
         },
     ]
 ];
@@ -31,7 +34,7 @@ function AdjustCarrosselSizing() {
 function AdjustItemsSize() {
     let CurrentIdx = 0;
     for (let i = 0; i < Items.length ; i++) {
-        let itemWidth = 100 / Items[i].length;
+        let itemWidth = (100 / Items[i].length);
         for (let j = 0; j < Items[i].length; j++) {
             CarrosselItems[CurrentIdx].style.width = itemWidth + '%';
             CurrentIdx++;

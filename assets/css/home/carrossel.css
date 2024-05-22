@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 40vh;
+    height: 50vh;
 
     width: 99%;
 }
@@ -19,10 +19,9 @@
 .carrossel_movable_box{
     position: relative;
     display: flex;
-    border: 1px solid blue;    
     height: 99%;
+    width: 99%;
     transition: 0.5s ease;
-    width: 40vw;
 }
 
 .carrossel_button{
@@ -42,17 +41,22 @@
     cursor: pointer;
 }
 
+.carrossel_item_img{
+    height: 100%;
+    width: 100%;
+    object-fit: COVER;
+}
 
 .carrossel_container{
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
     width: 80%;
     height: 100%;
- 
+    overflow: hidden;
+    border-radius: 15px;
 }
 
 .carrossel_item{
-    border: 1px solid red;
+    display: flex;
+    justify-content: center;
     height: 100%;
+    opacity: 1;
 }
