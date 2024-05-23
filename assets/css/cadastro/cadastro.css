@@ -78,8 +78,9 @@ fieldset h2 {
     cursor: pointer;
     color: white;
     font-size: .9em;
-    width: 250px;
+    width: 220px;
     transition: .5s ease;
+    text-align: center;
 }
 
 #submit:hover {

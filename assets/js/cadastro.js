@@ -23,8 +23,9 @@ function OnSubmit (){
             users.push(generateUser(username.value, senha.value, email.value))
         }
         localStorage.setItem('registereds', JSON.stringify(users));
+        localStorage.setItem('currentUser', JSON.stringify(users[users.length - 1]));
     
 
-        window.location.href = 'login.html';
+        window.location.href = 'profile.html';
     }
 }
