@@ -35,9 +35,10 @@ function OnSubmit() {
 
 
 function OnUserClick(){
-    let username = JSON.parse(localStorage.getItem('currentUser')) || [];
 
-    if(!username.length){
+    let user = JSON.parse(localStorage.getItem('currentUser')) || [];
+
+    if(!user.username){
         window.location.href = 'login.html';
     }else{
         window.location.href = 'profile.html';
