@@ -1,27 +1,45 @@
 
 
-function OnSubmit(){
-    console.log("a");
+function OnSubmit() {
     let users = JSON.parse(localStorage.getItem('registereds')) || [];
 
-    let currentUser = document.getElementById("username");
-    let currentPass = document.getElementById("senha");
+    let currentUser = document.getElementById("username").value;
+    let currentPass = document.getElementById("senha").value;
 
-    if(currentUser.value && currentPass.value){
-      for(let i =0; i < users.lenght; i++){
-        if(users[i].username == currentUser){
-            if(users[i].password == currentPass){
+    if (currentUser && currentPass) {
+        let userFound = false;
 
-                let user = JSON.parse(localStorage.getItem('username')) || [];
-                delete user;
-                user.push(currentUser);
+        for (let i = 0; i < users.length; i++) {
+            if (users[i].username == currentUser) {
+                userFound = true;
 
-                window.location.href = 'profile.html';
+                // Aqui, você deveria verificar a senha também para confirmar o login
+                if (users[i].password == currentPass) {
+                    localStorage.setItem('currentUser', JSON.stringify(users[i]));
+
+                    window.location.href = 'profile.html';
+                } else {
+                    alert("Senha incorreta");
+                }
+                break; // Saia do loop se o usuário foi encontrado
             }
-        } 
-      }
-      console.log("not found")
+        }
+
+        if (!userFound) {
+            alert("Usuário não encontrado");
+        }
+    } else {
+        alert("Usuário ou senha não fornecidos");
+    }
+}
+
+
+function OnUserClick(){
+    let username = JSON.parse(localStorage.getItem('username')) || [];
+
+    if(!username.length){
+        window.location.href = 'login.html';
     }else{
-   
+        window.location.href = 'profile.html';
     }
 }

@@ -20,6 +20,13 @@
     background-color: #F5F5F5;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+    transition: 0.5s ease;
+}
+
+.product:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 0.5s ease;
 }
 
 .product_img {
@@ -52,6 +59,10 @@
     height: 30%;
     padding: 10px;
 
+}
+
+h2{
+    font-size: 2em;
 }
 
 .product_img_button {

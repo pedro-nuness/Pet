@@ -19,7 +19,7 @@
 <body>
    <section class="top_content" >
         <nav class="top_nav">
-            <div class="top_title">
+            <div class="top_title" onclick="window.location.href='index.html'">
                 <div class="top_title_img_div">
                     <img class="top_title_img" src="assets/img/Logo PNG.png"/>
                 </div>
@@ -37,15 +37,10 @@
                 <input type="text" class="search_bar_input" placeholder="O que seu pet precisa?">
             </div>
 
-            <div class="top_buttons">
-                
-                    <button class="top_button" id="user_button" onclick=OnUserClick()>
-                    
-                    
+            <div class="top_buttons">              
+                <button class="top_button" id="user_button" onclick=OnUserClick()>            
                     <img src="assets/img/user.png" style="object-fit: contain; height:100%;" alt="">
-                    </button>
-               
-
+                </button>
                 <button class="top_button" id="bag_button" onclick="window.location.href='carrinho.html'" >
                     <img src="assets/img/bag.png" style="object-fit: contain; height:100%;" alt="">
                 </button>
@@ -386,5 +381,6 @@
     </footer>
 
     <script src="assets/js/home.js"></script>
+    <script src="assets/js/login.js"></script>
 </body>
 </html>
