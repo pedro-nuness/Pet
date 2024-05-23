@@ -149,16 +149,197 @@ let productInfo = [
         [
             {
                 imageNumber: 1,
+                name: "Tapete Higiênico Baby Pads para Cães",
+                price: "99.90"
+            },
+        
+            {
+                imageNumber: 2,
+                name: "Super Secão Tapete Higiênico para Cachorro",
+                price: "79.90"
+            },
+        
+            {
+                imageNumber: 3,
+                name: "Tapete Higiênico Super Secão Max Citrus Slim para Cães",
+                price: "89.90"
+            },
+        
+            {
+                imageNumber: 4,
+                name: "Tapete Higiênico Super Secão Max para Cães 30 unidades",
+                price: "69.90"
+            },
+        
+            {
+                imageNumber: 5,
+                name: "Tapete Higiênico Super Secão Baby Petix para Cães",
+                price: "59.90"
+            },
+            
+            {
+                imageNumber: 6,
+                name: "Tapete Higiênico Chalesco Premium para Cães",
+                price: "39,47"
+            },
+        
+            {
+                imageNumber: 7,
+                name: "Tapete Higiênico Super Secão Black Slim para Cães",
+                price: "49.90"
+            },
+        
+            {
+                imageNumber: 8,
+                name: "Tapete Higiênico Chalesco Premium Blue para Cães",
+                price: "29.90"
+            },
+        
+            {
+                imageNumber: 9,
+                name: "Tapete Higiênico Petix Super Premium para Cães - 30 Unidades",
+                price: "19.90"
+            },
+        
+            {
+                imageNumber: 10,
+                name: "Tapete Higiênico Zee.Pad Preto para Cães Zee Dog",
+                price: "9.90"
+            },
+        
+            {
+                imageNumber: 1,
                 name: "Ração Seca Nutrilus Pro+ Frango & Carne para Cães Adultos",
                 description: "Nutrilus Pro+ Cães Adultos é uma ração premium especial, desenvolvida por médicos veterinários, com ingredientes selecionados, sem corantes e sem aromatizantes artificiais, garantindo uma alimentação balanceada mais saborosa e nutritiva. Mais sabor, mais proteína e mais nutrição.<br><br>Garantia de Satisfação: Nutrilus acredita que a satisfação é um comprometimento com a vida do pet, e garantimos você e seu pet satisfeitos ou seu dinheiro de volta..*<br><br>- Proteínas de alta qualidade: favorece o ótimo aproveitamento dos nutrientes para a manutenção da musculatura e condição corporal ideal;<br>- Intestino saudável: com fibras que favorecem uma função intestinal regular;<br>- Redução do odor das fezes: com extrato de yucca, ideal para ambientes internos;<br>- Pelagem macia e brilhante: aporte equilibrado de ácidos graxos essenciais, ômegas 3 e 6, vitaminas e minerais;<br>- Defesa do organismo: enriquecido com DHA que contribui para a redução de inflamações e saúde do coração.<br><br>- Sabor: Frango & Carne<br>- Embalagem: disponível nas versões de 15kg e 20kg<br>- Tamanho médio do grão: 13,5mm<br>- Indicado para: cães adultos de raças médias e grandes",
                 price: "204.90"
-            },
+            }
         ],
         //medicamentos
         [
         ],
         //casinhas
         [
+            {
+                imageNumber: 1,
+                name: "Casinha Iglu Ecológica Recriar Pet Natural",
+                price: "99.90"
+            },
+        
+            {
+                imageNumber: 2,
+                name: "Casinha Mokoi Pinus",
+                price: "99.90"
+            },
+        
+            {
+                imageNumber: 3,
+                name: "Casinha Barcelona Branco e Vermelho para Cães e Gatos",
+                price: "99.90"
+            },
+        
+            {
+                imageNumber: 4,
+                name: "Casinha Barcelona Preto e Cinza para Cães e Gatos",
+                price: "99.90"
+            },
+        
+            {
+                imageNumber: 5,
+                name: "Casinha Barcelona Preto para Cães e Gatos",
+                price: "99.90"
+            },
+        
+            {
+                imageNumber: 6,
+                name: "Nicho Casinha Branco para Gatos",
+                price: "99.90"
+            },
+        
+            {
+                imageNumber: 7,
+                name: "Casinha Mokoi Criadora Pinus",
+                price: "99.90"
+            },
+        
+            {
+                imageNumber: 8,
+                name: "Toca Home Cat Cinza para Gatos",
+                price: "99.90"
+            },
+        
+        
+            {
+                imageNumber: 9,
+                name: "Brinquedo Arranhador Casa e Rede Marrom e Bege",
+                price: "99.90"
+            },
+        
+            {
+                imageNumber: 10,
+                name: "Cama Luppet Conforto Iglu 2 em 1 Flamingo",
+                price: "99.90"
+            },
+        
+            {
+                imageNumber: 11,
+                name: "Colchonete Rustic de Lona Camuflado",
+                price: "99.90"
+            },
+        
+            {
+                imageNumber: 12,
+                name: "Cama Luppet Iglu Marinho Acquablock com Estampa Cachorrinho",
+                price: "99.90"
+            },
+        
+            {
+                imageNumber: 13,
+                name: "Casa Furacão Pet de Plástico",
+                price: "99.90"
+            },
+        
+            {
+                imageNumber: 14,
+                name: "Casinha Ecológica Recriar Pet Natural para gato",
+                price: "99.90"
+            },
+        
+            {
+                imageNumber: 15,
+                name: "Nicho Carinha Preto para Gatos",
+                price: "99.90"
+            },
+        
+            {
+                imageNumber: 16,
+                name: "Cama Luppet Conforto Iglu 2 em 1 Super Luxo Impermeável Preta",
+                price: "99.90"
+            },
+        
+            {
+                imageNumber: 17,
+                name: "Cama Luppet Iglu 2 em 1 Vermelha",
+                price: "99.90"
+            },
+        
+            {
+                imageNumber: 18,
+                name: "Capa para Cama Pickorruchos King Gigante",
+                price: "99.90"
+            },
+        
+            {
+                imageNumber: 19,
+                name: "Casa de Madeira Triangular para Cães e Gatos",
+                price: "99.90"
+            },
+        
+            {
+                imageNumber: 20,
+                name: "Casa Durahouse Vermelha para Cães",
+                price: "99.90"
+            },
+        
         ],
         //petiscos
         [
@@ -199,9 +380,11 @@ let productInfo = [
 ];
 
 // Função para criar objetos a partir de pares de chave-valor
-function createProductObject(imageNumber, name, description, price, tipo) {
+function createProductObject(imageNumber, name, description, price, tipo, categoria) {
+    console.log(categoria);
     return {
-        imagem: `assets/img/produtos/${tipo}/${imageNumber}.jpg`,
+        imagem: `assets/img/produtos/${tipo}/${categoria}/${imageNumber}.jpg`,
+        //                  produtos\cachorro\caixasdetransporte/
         nome: name,
         descrição: description,
         preço: price
@@ -313,10 +496,10 @@ function createProductElement(produtos, target) {
     });
 }
 
-function InsertProducts( tipo, idx, tipo_nome){
+function InsertProducts( tipo, idx, tipo_nome, categoria){
     for(let j =0; j < productInfo[tipo][idx].length; j++){
         let product = productInfo[tipo][idx][j];
-        products.push(createProductObject(product.imageNumber, product.name, product.description, product.price, tipo_nome));
+        products.push(createProductObject(product.imageNumber, product.name, product.description, product.price, tipo_nome, categoria));
     }
 }
 
@@ -382,7 +565,7 @@ function CreateProducts(item){
     }
 
     if(TipoIDX != -1 && ProdutoIDX != -1){
-        InsertProducts(TipoIDX, ProdutoIDX, item.tipo);
+        InsertProducts(TipoIDX, ProdutoIDX, item.tipo, item.categoria);
         let Area = document.getElementsByClassName("product_area")
 
         

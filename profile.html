@@ -60,10 +60,11 @@
     </section>
     
     <section class="profile">
+        
         <div class="profile-info">
-            <h2>Olá, Bem vindo(a) ao Pet Planet.</h2>
-
+            <br>
             <div class="info-buttons" id="button-used">
+              
                 Sobre mim
                 <!--duas classes: "button-icons-a" e "button-icons-b" porque as imagens "a" são um pouco menores que as "b"-->
                 <img class="button-icons-a" src="assets/img/user.png">
@@ -72,11 +73,6 @@
             <div class="info-buttons">
                 Meus Pets
                 <img class="button-icons-a" src="assets/img/login_icons/pet.jpg">
-            </div>
-
-            <div class="info-buttons">
-                Carrinho
-                <img class="button-icons-b" src="assets/img/login_icons/carrinho.png">
             </div>
 
             <div class="info-buttons">
@@ -89,7 +85,7 @@
                 <img class="button-icons-b" src="assets/img/login_icons/shield.png">
             </div>
 
-            <div class="info-buttons">
+            <div class="info-buttons" onclick="LogOut()">
                 Sair da conta
                 <img class="button-icons-b" src="assets/img/login_icons/sign-out.png">
             </div>
@@ -99,10 +95,12 @@
         
         <div class="profile-content">
 
+            <h2 id="mensagem">Olá, Bem vindo(a) ao Pet Planet.</h2>
+
             <img class="profile-pic" src="assets/img/user-profile.png">
-            <h2>Nome</h2>
-            <p>Email@email.com</p>
-            <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Ab exercitationem voluptatibus error tempora. <br> Aliquid officiis corrupti amet ipsa aliquam mollitia possimus minus <br> ratione corporis, sint fugiat saepe, vel dolorem ea.</h5>
+            <h2 ID="nome">Nome</h2>
+            <p id="email">Email@email.com</p>
+
 
         </div>
 
@@ -152,5 +150,6 @@
     </div>
 </footer>
     <script src="assets/js/login.js"></script>
+    <script src="assets/js/profile.js"></script>
 </body>
 </html>
