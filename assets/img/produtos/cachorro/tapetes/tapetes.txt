@@ -1,0 +1,60 @@
+{
+        imageNumber: 1,
+        name: "Tapete Higiênico Baby Pads para Cães",
+        price: "99,90"
+    },
+
+{
+        imageNumber: 2,
+        name: "Super Secão Tapete Higiênico para Cachorro",
+        price: "79,90"
+    },
+
+{
+        imageNumber: 3,
+        name: "Tapete Higiênico Super Secão Max Citrus Slim para Cães",
+        price: "89,90"
+    },
+
+{
+        imageNumber: 4,
+        name: "Tapete Higiênico Super Secão Max para Cães 30 unidades",
+        price: "69,90"
+    },
+
+{
+        imageNumber: 5,
+        name: "Tapete Higiênico Super Secão Baby Petix para Cães",
+        price: "59,90"
+    },
+
+{
+        imageNumber: 6,
+        name: "Tapete Higiênico Chalesco Premium para Cães",
+        price: "39,47"
+    },
+
+{
+        imageNumber: 7,
+        name: "Tapete Higiênico Super Secão Black Slim para Cães",
+        price: "49,90"
+    },
+
+{
+        imageNumber: 8,
+        name: "Tapete Higiênico Chalesco Premium Blue para Cães",
+        price: "29,90"
+    },
+
+{
+        imageNumber: 9,
+        name: "Tapete Higiênico Petix Super Premium para Cães - 30 Unidades",
+        price: "19,90"
+    },
+
+{
+        imageNumber: 10,
+        name: "Tapete Higiênico Zee.Pad Preto para Cães Zee Dog",
+        price: "9,90"
+    }
+

@@ -1,0 +1,121 @@
+{
+        imageNumber: 1,
+        name: "Casinha Iglu Ecológica Recriar Pet Natural",
+        price: "99,90"
+    },
+
+{
+        imageNumber: 2,
+        name: "Casinha Mokoi Pinus",
+        price: "99,90"
+    },
+
+{
+        imageNumber: 3,
+        name: "Casinha Barcelona Branco e Vermelho para Cães e Gatos",
+        price: "99,90"
+    },
+
+{
+        imageNumber: 4,
+        name: "Casinha Barcelona Preto e Cinza para Cães e Gatos",
+        price: "99,90"
+    },
+
+{
+        imageNumber: 5,
+        name: "Casinha Barcelona Preto para Cães e Gatos",
+        price: "99,90"
+    },
+
+{
+        imageNumber: 6,
+        name: "Nicho Casinha Branco para Gatos",
+        price: "99,90"
+    },
+
+{
+        imageNumber: 7,
+        name: "Casinha Mokoi Criadora Pinus",
+        price: "99,90"
+    },
+
+{
+        imageNumber: 8,
+        name: "Toca Home Cat Cinza para Gatos",
+        price: "99,90"
+    },
+
+
+{
+        imageNumber: 9,
+        name: "Brinquedo Arranhador Casa e Rede Marrom e Bege",
+        price: "99,90"
+    },
+
+{
+        imageNumber: 10,
+        name: "Cama Luppet Conforto Iglu 2 em 1 Flamingo",
+        price: "99,90"
+    },
+
+{
+        imageNumber: 11,
+        name: "Colchonete Rustic de Lona Camuflado",
+        price: "99,90"
+    },
+
+{
+        imageNumber: 12,
+        name: "Cama Luppet Iglu Marinho Acquablock com Estampa Cachorrinho",
+        price: "99,90"
+    },
+
+{
+        imageNumber: 13,
+        name: "Casa Furacão Pet de Plástico",
+        price: "99,90"
+    },
+
+{
+        imageNumber: 14,
+        name: "Casinha Ecológica Recriar Pet Natural para gato",
+        price: "99,90"
+    },
+
+{
+        imageNumber: 15,
+        name: "Nicho Carinha Preto para Gatos",
+        price: "99,90"
+    },
+
+{
+        imageNumber: 16,
+        name: "Cama Luppet Conforto Iglu 2 em 1 Super Luxo Impermeável Preta",
+        price: "99,90"
+    },
+
+{
+        imageNumber: 17,
+        name: "Cama Luppet Iglu 2 em 1 Vermelha",
+        price: "99,90"
+    },
+
+{
+        imageNumber: 18,
+        name: "Capa para Cama Pickorruchos King Gigante",
+        price: "99,90"
+    },
+
+{
+        imageNumber: 19,
+        name: "Casa de Madeira Triangular para Cães e Gatos
+",
+        price: "99,90"
+    },
+
+{
+        imageNumber: 20,
+        name: "Casa Durahouse Vermelha para Cães",
+        price: "99,90"
+    },

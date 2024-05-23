@@ -1,0 +1,119 @@
+{
+        imageNumber: 1,
+        name: "Ração Seca Nutrilus Pro+ Frango & Carne para Cães Adultos",
+        price: "99,90"
+    },
+
+{
+        imageNumber: 2,
+        name: "Ração Seca True para Cães Adultos Raças Médias e Grandes",
+        price: "99,90"
+    },
+
+{
+        imageNumber: 3,
+        name: "Ração Seca Liva Super Premium para Cães Adultos de Raças Pequenas",
+        price: "99,90"
+    },
+
+{
+        imageNumber: 4,
+        name: "Ração Seca Magnus Todo Dia Carne para Cães Adultos",
+        price: "99,90"
+    },
+
+{
+        imageNumber: 5,
+        name: "Ração Premier Pet Formula Cães Adultos Raças Pequenas",
+        price: "99,90"
+    },
+
+{
+        imageNumber: 6,
+        name: "Ração GranPlus Choice Frango e Carne para Cães Adultos",
+        price: "99,90"
+    },
+
+{
+        imageNumber: 7,
+        name: "Ração Premier Golden Formula Cães Filhotes Carne e Arroz",
+        price: "99,90"
+    },
+
+{
+        imageNumber: 8,
+        name: "Ração Premier Pet Formula Cães Adultos Raças Grandes e Gigantes Frango",
+        price: "99,90"
+    },
+
+{
+        imageNumber: 9,
+        name: "Ração Special Dog Gold Premium Especial Frango e Carne para Cães Adultos",
+        price: "99,90"
+    },
+
+{
+        imageNumber: 10,
+        name: "Ração GranPlus Menu Carne e Arroz para Cães Filhotes",
+        price: "99,90"
+    },
+
+{
+        imageNumber: 11,
+        name: "Ração Fórmula Natural Life Super Premium para Cães Adultos Raças Mini e Pequena",
+        price: "99,90"
+    },
+
+{
+        imageNumber: 12,
+        name: "Ração Special Dog Premium Carne para Cães Adultos",
+        price: "99,90"
+    },
+
+{
+        imageNumber: 13,
+        name: "Ração Premier Pet Formula Frango Cães Adultos Raças Médias",
+        price: "99,90"
+    },
+
+{
+        imageNumber: 14,
+        name: "Ração Seca PremieR Pet Golden Seleção Natural para Cães Adultos Mini Bits",
+        price: "99,90"
+    },
+
+{
+        imageNumber: 15,
+        name: "Ração Royal Canin para Cães Adultos da Raça Shih Tzu",
+        price: "99,90"
+    },
+
+{
+        imageNumber: 16,
+        name: "Ração Royal Canin Mini Indoor Junior para Cães Filhotes",
+        price: "99,90"
+    },
+
+{
+        imageNumber: 17,
+        name: "Ração Seca Quatree Supreme Frango e Batata Doce Cães Filhotes Raças Médias e Grandes",
+        price: "99,90"
+    },
+
+{
+        imageNumber: 18,
+        name: "Ração Seca PremieR Pet Golden Seleção Natural para Cães Filhotes",
+        price: "99,90"
+    },
+
+{
+        imageNumber: 19,
+        name: "Ração Royal Canin Medium Adult para Cães Adultos de Raças Médias a partir de 12 Meses de Idade",
+        price: "99,90"
+    },
+
+{
+        imageNumber: 20,
+        name: "Ração Seca Pedigree para Cães Filhotes Raças Médias e Grandes",
+        price: "99,90"
+    }
