@@ -71,10 +71,8 @@ function MoveCarrossel(idx, side){
             CarrosselIDX++;
     }else if(CarrosselIDX > 0)
         CarrosselIDX--;
-    console.log(CarrosselIDX);
 
     CarrosselBox[idx].style.left = -CarrosselIDX * 100 + '%';   
-
     Indexes[idx].index = CarrosselIDX;
 }
 
