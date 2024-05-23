@@ -1,12 +1,3 @@
-
-
-
-
-
-
-
-
-
 let products = [];
 
 // Informações dos produtos (imagem, nome, descrição e preço)
@@ -266,8 +257,6 @@ let productInfo = [
                 name: "Toca Home Cat Cinza para Gatos",
                 price: "99.90"
             },
-        
-        
             {
                 imageNumber: 9,
                 name: "Brinquedo Arranhador Casa e Rede Marrom e Bege",
@@ -392,7 +381,7 @@ function createProductObject(imageNumber, name, description, price, tipo, catego
 }
 
 function AddToCart(produto){
- 
+    
     let cart = JSON.parse(localStorage.getItem('carrinho')) || [];
     cart.push(produto);
     localStorage.setItem('carrinho', JSON.stringify(cart));
@@ -422,7 +411,7 @@ function createProductElement(produtos, target) {
         // Criando o botão <button class="product_add_cart_button">
         var addButton = document.createElement("button");
         addButton.classList.add("product_add_cart_button");
-        addButton.addEventListener("click", () => AddToCart(produto));
+        addButton.addEventListener("click", () => {AddToCart(produto)});
     
         // Criando o ícone <span class="material-symbols-outlined">add_shopping_cart</span>
         var addIcon = document.createElement("span");
