@@ -107,12 +107,3 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-function OnUserClick(){
-    let username = JSON.parse(localStorage.getItem('username')) || [];
-
-    if(!username.length){
-        window.location.href = 'login.html';
-    }else{
-        window.location.href = 'profile.html';
-    }
-}

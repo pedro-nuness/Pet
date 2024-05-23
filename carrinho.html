@@ -16,7 +16,7 @@
     
     <section class="top_content" style="height: 15vh;" >
         <nav class="top_nav" style="height: 75%;">
-            <div class="top_title">
+            <div class="top_title" onclick="window.location.href='index.html'">
                 <div class="top_title_img_div">
                     <img class="top_title_img" src="assets/img/Logo PNG.png"/>
                 </div>
@@ -34,12 +34,11 @@
                 <input type="text" class="search_bar_input" placeholder="O que seu pet precisa?">
             </div>
 
-            <div class="top_buttons">
-                <button class="top_button" id="user_button">
+            <div class="top_buttons">              
+                <button class="top_button" id="user_button" onclick=OnUserClick()>            
                     <img src="assets/img/user.png" style="object-fit: contain; height:100%;" alt="">
                 </button>
-
-                <button class="top_button" id="bag_button">
+                <button class="top_button" id="bag_button" onclick="window.location.href='carrinho.html'" >
                     <img src="assets/img/bag.png" style="object-fit: contain; height:100%;" alt="">
                 </button>
             </div>
@@ -51,7 +50,7 @@
         <div class="cart_area">
             <h2>Carrinho de Compras</h2>
             <div class="cart_items">
-                <!-- Cart Item 1 -->
+                <!-- Cart Item 1 
                 <div class="cart_item">
                     <div class="cart_item_img">
                         <img src="assets/img/bahno&tosa.jpg" class="cart_img" alt="Ração seca Gato">
@@ -59,6 +58,11 @@
                     <div class="cart_item_info">
                         <span class="cart_item_name">Ração seca Gato</span>
                         <span class="cart_item_price">R$150</span>
+                        <span class="cart_item_remove">
+                            <span class="material-symbols-outlined">
+                                delete
+                            </span>
+                        </span>
                         <div class="cart_item_quantity">
                             <button class="quantity_button">-</button>
                             <input type="text" value="1" class="quantity_input">
@@ -66,27 +70,14 @@
                         </div>
                     </div>
                 </div>
-                <!-- Cart Item 2 -->
-                <div class="cart_item">
-                    <div class="cart_item_img">
-                        <img src="assets/img/exemplo.jpg" class="cart_img" alt="Ração seca Cachorro">
-                    </div>
-                    <div class="cart_item_info">
-                        <span class="cart_item_name">Ração seca Cachorro</span>
-                        <span class="cart_item_price">R$200</span>
-                        <div class="cart_item_quantity">
-                            <button class="quantity_button">-</button>
-                            <input type="text" value="1" class="quantity_input">
-                            <button class="quantity_button">+</button>
-                        </div>
-                    </div>
-                </div>
+                -->
+               
                 <!-- Additional cart items can be added here -->
             </div>
             <div class="cart_summary">
                 <div class="cart_summary_item">
                     <span>Subtotal:</span>
-                    <span>R$350</span>
+                    <span id="subtotal">R$350</span>
                 </div>
                 <div class="cart_summary_item">
                     <span>CEP:</span>
@@ -98,7 +89,7 @@
                 </div>
                 <div class="cart_summary_total">
                     <span>Total:</span>
-                    <span>R$350</span>
+                    <span id="total">R$350</span>
                 </div>
                 <button class="checkout_button">Finalizar Compra</button>
             </div>
@@ -146,5 +137,6 @@
             </p>
         </div>
     </footer>
+    <script src="assets/js/carrinho.js"></script>
 </body>
 </html>

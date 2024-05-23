@@ -25,6 +25,18 @@
     flex: 1;
 }
 
+.cart_item_remove{
+    outline: NONE;
+    border: 0px;
+    background-color: transparent;
+    width: 5%;
+    cursor: pointer;
+}
+
+.material-symbols-outlined{
+    font-weight: 200;
+}
+
 .cart_img {
     width: 100px;
     height: 100px;
@@ -41,6 +53,10 @@
 
 .cart_item_name, .cart_item_price {
     font-size: 1.2rem;
+}
+
+.cart_item_price{
+    font-weight: 600;
 }
 
 .cart_item_quantity {

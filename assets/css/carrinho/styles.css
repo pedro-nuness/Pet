@@ -3,5 +3,9 @@
 @import url(carrinho.css);
 
 body, html{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
     margin: 0px;
 }
