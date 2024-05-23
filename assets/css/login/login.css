@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #068ad6, #43d993);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+}
+
+.box {
+    max-width: 300px;
+    min-width: 300px;
+}
+
+#logofoda {
+    position: absolute;
+    top: 24%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#logofoda img {
+    width: 100px;
+}
+
+fieldset {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.13);
+}
+
+fieldset h2 {
+    color: #068ad6;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.nomezin {
+    color: rgb(78, 77, 77);
+    letter-spacing: 1px;
+    font-size: .7em;
+    margin-bottom: 5px;
+}
+
+.inputBox {
+    margin: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+.inputUser {
+    background-color: rgb(211, 211, 211);
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    outline: #068ad6;
+    font-size: 15px;
+}
+
+.submitbox {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+#submit {
+    background-image: linear-gradient(to right, #068ad6, #43d993);
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: .9em;
+    width: 250px;
+    transition: .5s ease;
+}
+
+#submit:hover {
+    color: white;
+    background-image: linear-gradient(to right, #057bbe, #38bb7e);
+    transition: .5s ease;
+}
+
+.downinputs {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+#downputsforgot {
+    font-size: .8em;
+    color: #068ad6;
+    text-decoration: none;
+    align-items: end;
+    text-align: end;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+#downputsforgot:hover {
+    color: #0272b3;
+}
+
+.loginforms {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.fotos {
+    width: 25px;
+    transition: all .5s;
+    margin-bottom: 5px;
+}
+
+.fotos:hover {
+    transition: all .5s;
+    transform: scale(1.3);
+}
+
+#apple {
+    margin-top: -5px;
+}
