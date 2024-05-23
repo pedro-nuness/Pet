@@ -81,3 +81,38 @@ function MoveCarrossel(idx, side){
 InsertItems();
 AdjustCarrosselSizing();
 AdjustItemsSize();
+
+function Req(produto) {
+    let request = JSON.parse(localStorage.getItem('currentRequest')) || [];
+    request = []; 
+    request.push(produto);
+    localStorage.setItem('currentRequest', JSON.stringify(request));
+    window.location.href = 'produtos.html'; 
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    const productButtons = document.querySelectorAll('.produtos_imagem .img-marcas');
+
+    productButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            let categoria = button.querySelector('.marca_info_text') ? button.querySelector('.marca_info_text').textContent.toLowerCase() : null;
+            let TipoElement = button.closest('.produtos-e-marcas').querySelector('.titulos-produtos h2')
+            let tipo = TipoElement.textContent.toLowerCase().includes('cachorros') ? 'cachorro' : TipoElement.textContent.toLowerCase().includes('gatos') ? 'gato' : null;
+            if(tipo != null){
+                categoria = categoria.replace(/\s+/g, "");       
+                const produto = { tipo, categoria };
+                Req(produto);
+            }
+        });
+    });
+});
+
+function OnUserClick(){
+    let username = JSON.parse(localStorage.getItem('username')) || [];
+
+    if(!username.length){
+        window.location.href = 'login.html';
+    }else{
+        window.location.href = 'profile.html';
+    }
+}
