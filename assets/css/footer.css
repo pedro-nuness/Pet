@@ -12,11 +12,13 @@ footer{
     font-size: .8em;
     line-height: 22px;
     padding: 10px;
+    cursor: pointer;
 }
 
 .textuais h3 {
     margin: 0px;
     margin-bottom: -8px;
+    cursor: pointer;
 }
 
 .textuais p {

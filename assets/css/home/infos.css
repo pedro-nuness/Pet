@@ -3,9 +3,9 @@
      margin-bottom: 2%;
     display: flex;
     align-items: flex-start;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-direction: row;
-    width: 70%;
+    width: 90%;
 }
 
 .info_img_div{
@@ -27,6 +27,8 @@
     background-color: transparent;
     width: 95%;
     border-radius: 15px;
+    text-align:justify;
+    width: 20vw;
     height: 60vh;
     box-shadow: 0px 0px 10px rgb(202, 202, 202);
 }
