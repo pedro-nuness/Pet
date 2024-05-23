@@ -91,12 +91,12 @@ fieldset h2 {
 .downinputs {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 #downputsforgot {
     font-weight: bold;
-    font-size: 1em;
+    font-size: .8em;
     color: #068ad6;
     text-decoration: none;
     margin-bottom: 20px;
