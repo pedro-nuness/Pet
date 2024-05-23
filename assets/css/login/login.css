@@ -71,6 +71,7 @@ fieldset h2 {
 }
 
 #submit {
+    text-align: center;
     background-image: linear-gradient(to right, #068ad6, #43d993);
     border: none;
     padding: 15px;
