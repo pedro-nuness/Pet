@@ -10,11 +10,6 @@ body {
     margin: auto;
 }
 
-.box {
-    max-width: 300px;
-    min-width: 300px;
-}
-
 .fofo {
     display: flex;
     flex-direction: column;

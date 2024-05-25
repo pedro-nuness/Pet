@@ -4,15 +4,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: row;
     width: 100vw;
     height: 100vh;
     margin: auto;
-}
-
-.box {
-    max-width: 300px;
-    min-width: 300px;
 }
 
 .fofo {
