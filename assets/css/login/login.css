@@ -27,7 +27,7 @@ body {
 .logopica {
     width: 100px;
     margin-top: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
     transition: .5s ease;
 }
 
@@ -108,7 +108,7 @@ fieldset h2 {
 }
 
 #downputsforgot {
-    font-size: .8em;
+    font-size: .9em;
     color: #068ad6;
     text-decoration: none;
     align-items: end;
@@ -119,6 +119,10 @@ fieldset h2 {
 
 #downputsforgot:hover {
     color: #0272b3;
+}
+
+#top2 {
+    color: #068ad6;
 }
 
 .loginforms {

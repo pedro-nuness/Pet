@@ -9,49 +9,44 @@
 <body>
     <div class="box">
         <form action="">
-            <fieldset>
-                <div id="logofoda" onclick="window.location.href='index.html'">
-                    <img src="assets/img/Logo PNG.png" alt="">
+            <fieldset class="fofo">
+                <div>
+                    <a href="index.html"><img class="logopica" src="assets/img/Logo PNG.png" alt="Voltar ao Home"></a>
                 </div>
-                <h2>‎</h2>
-                <br>
-                <br>
                 <div class="inputBox">
                     <span class="nomezin">USERNAME</span>
-                    <input type="text" name="username" id="username" class="inputUser" required title="Username">
+                    <input id="username" type="text" class="inputUser" required>
                 </div>
-                <br>
                 <div class="inputBox">
                     <span class="nomezin">E-MAIL</span>
-                    <input type="email" name="email" id="email" class="inputUser" required title="E-mail">
+                    <input type="email" name="email" id="email" class="inputUser" required>
                 </div>
-                <br>
                 <div class="inputBox">
                     <span class="nomezin">SENHA</span>
-                    <input type="password" name="senha" id="senha" class="inputUser" required title="Senha">
+                    <input id="senha" type="password" class="inputUser" required>
                 </div>
-                <br>
                 <div class="inputBox">
                     <span class="nomezin">CONFIRMAR SENHA</span>
-                    <input type="password" name="confirmarsenha" id="confirmarsenha" class="inputUser" required title="Confirmar Senha">
+                    <input type="password" name="confirmarsenha" id="confirmarsenha" class="inputUser" required>
                 </div>
-                <br>
                 <div class="submitbox">
-                    <input type="text" name="Register" id="submit"
-                    value="Register" onclick="OnSubmit()">
+                    <input id="submit" type="text" value="Register"
+                    onclick="OnSubmit()"">
                 </div>
-                <br>
-                <div>
-                    <div class="downinputs"><a  id="downputsforgot" href="#" onclick="window.location.href='login.html'" >Já possui conta</a><span id="downputsforgot" href="#">Cadastrar com:</span></div>
-                    </div>
+                <div class="downinputs">
+                    <span id="top2" class="downputsforgot" href="#">Cadastrar-se com:</span><br>
+                    <a id="top1" class="downputsforgot" href="login.html" >Já possui conta</a>
+                </div>
                 <div class="loginforms">
-                    <div><a href="#"><img class="fotos" src="assets/img/google.png" alt="Cadastrar com Google" title="Cadastrar com Google"></a></div>
-                    <div><a href="#"><img id="apple" class="fotos" src="assets/img/apple.png" alt="Login com Apple" title="Login com Apple"></a></div>
+                    <div>
+                        <img class="fotos" src="assets/img/google.png" alt="">
+                    </div>
+                    <div>
+                        <img id="apple" class="fotos" src="assets/img/apple.png" alt="">
+                    </div>
                 </div>
             </fieldset>
             <br>
-        </form>
-    </div>
     <script src="assets/js/cadastro.js"></script>
 </body>
 </html>

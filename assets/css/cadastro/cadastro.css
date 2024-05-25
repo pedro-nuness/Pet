@@ -15,21 +15,25 @@ body {
     min-width: 300px;
 }
 
-#logofoda {
-    position: absolute;
-    top: 13%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.fofo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    max-width: 300px;
+    min-width: 300px;
 }
 
-#logofoda img {
+.logopica {
     width: 100px;
+    margin-top: 10px;
+    margin-bottom: 5px;
     transition: .5s ease;
 }
 
-#logofoda img:hover{
-   transform: scale(1.1);
-   cursor: pointer;
+.logopica:hover {
+    transition: .5s ease;
+    transform: scale(1.1);
 }
 
 fieldset {
@@ -53,10 +57,10 @@ fieldset h2 {
 }
 
 .inputBox {
-    margin: 0px 10px;
     display: flex;
     flex-direction: column;
     border: none;
+    width: 90%;
 }
 
 .inputUser {
@@ -74,9 +78,11 @@ fieldset h2 {
     align-content: center;
     justify-content: center;
     margin: 10px 0;
+    width: 100%;
 }
 
 #submit {
+    text-align: center;
     background-image: linear-gradient(to right, #068ad6, #43d993);
     border: none;
     padding: 15px;
@@ -84,9 +90,8 @@ fieldset h2 {
     cursor: pointer;
     color: white;
     font-size: .9em;
-    width: 220px;
     transition: .5s ease;
-    text-align: center;
+    width: 80%;
 }
 
 #submit:hover {
@@ -98,15 +103,23 @@ fieldset h2 {
 .downinputs {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    flex-direction: column-reverse;
+    width: 100%;
 }
 
-#downputsforgot {
-    font-weight: bold;
-    font-size: .8em;
+.downputsforgot {
+    font-size: .9em;
     color: #068ad6;
     text-decoration: none;
-    margin-bottom: 20px;
+}
+
+#top1:hover {
+    color: #025a8d;
+}
+
+#top2 {
+    margin-top: 15px;
+    font-size: 1em;
 }
 
 .loginforms {
@@ -115,6 +128,7 @@ fieldset h2 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    gap: 50px;
 }
 
 .fotos {
@@ -126,6 +140,7 @@ fieldset h2 {
 .fotos:hover {
     transition: all .5s;
     transform: scale(1.3);
+    cursor: pointer;
 }
 
 #apple {
