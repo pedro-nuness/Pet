@@ -63,6 +63,7 @@ function InsertItems(){
     }
 }
 
+
 function MoveCarrossel(idx, side){
     let CarrosselIDX = Indexes[idx].index;
 
@@ -79,6 +80,11 @@ function MoveCarrossel(idx, side){
 InsertItems();
 AdjustCarrosselSizing();
 AdjustItemsSize();
+
+for(let i =0; i < CarrosselBox.length; i++){
+    MoveCarrossel(i, 0);
+}
+
 
 function Req(produto) {
     let request = JSON.parse(localStorage.getItem('currentRequest')) || [];
@@ -103,5 +109,6 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     });
+    
 });
 

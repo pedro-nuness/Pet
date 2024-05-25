@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: space-around;
     flex-direction:column;
-    margin: 1%;
+   
     padding: 2%;
   
     width: 90%;
@@ -55,7 +55,7 @@
 }
 
 .divisoria{
-    margin-top: 50px;
+    margin-top: 1%;
     width: 90%;
     border: solid 1px rgb(243, 243, 243);
 }
