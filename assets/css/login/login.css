@@ -15,23 +15,25 @@ body {
     min-width: 300px;
 }
 
-#logofoda {
-    position: absolute;
-    top: 24%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.fofo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    max-width: 300px;
+    min-width: 300px;
 }
 
-#logofoda img {
-    cursor: pointer;
+.logopica {
     width: 100px;
+    margin-top: 10px;
+    margin-bottom: 30px;
     transition: .5s ease;
 }
 
-
-#logofoda img:hover{
+.logopica:hover {
+    transition: .5s ease;
     transform: scale(1.1);
-
 }
 
 fieldset {
@@ -55,10 +57,10 @@ fieldset h2 {
 }
 
 .inputBox {
-    margin: 0px 10px;
     display: flex;
     flex-direction: column;
     border: none;
+    width: 90%;
 }
 
 .inputUser {
@@ -76,6 +78,7 @@ fieldset h2 {
     align-content: center;
     justify-content: center;
     margin: 10px 0;
+    width: 100%;
 }
 
 #submit {
@@ -87,8 +90,8 @@ fieldset h2 {
     cursor: pointer;
     color: white;
     font-size: .9em;
-    width: 220px;
     transition: .5s ease;
+    width: 80%;
 }
 
 #submit:hover {
@@ -99,8 +102,9 @@ fieldset h2 {
 
 .downinputs {
     display: flex;
-    align-items: end;
+    align-items: center;
     justify-content: space-evenly;
+    width: 100%;
 }
 
 #downputsforgot {
@@ -123,6 +127,7 @@ fieldset h2 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    gap: 50px;
 }
 
 .fotos {
