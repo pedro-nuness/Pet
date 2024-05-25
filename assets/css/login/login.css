@@ -139,6 +139,7 @@ fieldset h2 {
 .fotos:hover {
     transition: all .5s;
     transform: scale(1.3);
+    cursor: pointer;
 }
 
 #apple {
