@@ -5,10 +5,8 @@ function AddToCart(produto){
 }
 
 function PushElement(){
-
     let item = JSON.parse(localStorage.getItem('item')) || [];
 
-    
     let ProductImg = document.getElementsByClassName("product_img")[0];
     let ProductPrice = document.getElementsByClassName("product_price")[0];
     let ProductName = document.getElementsByClassName("product_name")[0];
@@ -20,9 +18,6 @@ function PushElement(){
     ProductName.innerHTML = `<h2>${ item[0].nome}</h2>`
 
     document.getElementById("cart").addEventListener("click", () => AddToCart(item[0]));
-    
-  
-    
 }
 
 PushElement();

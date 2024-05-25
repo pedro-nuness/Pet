@@ -17,8 +17,9 @@
     <title>Pet Planet</title>
 </head>
 <body>
-   <section class="top_content">
-        <nav class="top_nav">
+     
+    <section class="top_content" style="height: 15vh;" >
+        <nav class="top_nav" style="height: 75%;">
             <div class="top_title" onclick="window.location.href='index.html'">
                 <div class="top_title_img_div">
                     <img class="top_title_img" src="assets/img/Logo PNG.png"/>
@@ -31,32 +32,22 @@
 
             <div class="search_bar">
                 <div class="search_bar_icon">
-                    <img class="search_bar_icon_img"src="assets/img/search.png" alt="">
+                    <img class="search_bar_icon_img" src="assets/img/search.png" alt="">
                 </div>
 
                 <input type="text" class="search_bar_input" placeholder="O que seu pet precisa?">
             </div>
 
-            <div class="top_buttons">
-                <button class="top_button" id="user_button">
+            <div class="top_buttons">              
+                <button class="top_button" id="user_button" onclick=OnUserClick()>            
                     <img src="assets/img/user.png" style="object-fit: contain; height:100%;" alt="">
                 </button>
-
                 <button class="top_button" id="bag_button" onclick="window.location.href='carrinho.html'" >
                     <img src="assets/img/bag.png" style="object-fit: contain; height:100%;" alt="">
                 </button>
             </div>
             
         </nav>
-            
-            <div class="boxcategorias">
-                <div class="categoria">Cachorro</div>
-                <div class="categoria">Gato</div>
-                <div class="categoria">Áves</div>
-                <div class="categoria">Peixes</div>
-                <div class="categoria">Produtos</div>
-            </div>
-            
     </section>
     
     <section class="profile">
@@ -64,29 +55,26 @@
         <div class="profile-info">
             <br>
             <div class="info-buttons" id="button-used">
-              
-                Sobre mim
                 <!--duas classes: "button-icons-a" e "button-icons-b" porque as imagens "a" são um pouco menores que as "b"-->
                 <img class="button-icons-a" src="assets/img/user.png">
             </div>
 
             <div class="info-buttons">
-                Meus Pets
+              
                 <img class="button-icons-a" src="assets/img/login_icons/pet.jpg">
             </div>
 
             <div class="info-buttons">
-                Favoritos
+              
                 <img class="button-icons-b" src="assets/img/login_icons/heart.png">
             </div>
 
             <div class="info-buttons">
-                Alterar Senha
+               
                 <img class="button-icons-b" src="assets/img/login_icons/shield.png">
             </div>
 
             <div class="info-buttons" onclick="LogOut()">
-                Sair da conta
                 <img class="button-icons-b" src="assets/img/login_icons/sign-out.png">
             </div>
 
@@ -106,7 +94,7 @@
 
     </section>
 
-   <script src="assets/js/home.js"></script>
+   
    <footer>
     <div class="textuais">
         <p><h3>Institucional</h3> <br>
@@ -149,6 +137,7 @@
         </p>
     </div>
 </footer>
+
     <script src="assets/js/login.js"></script>
     <script src="assets/js/profile.js"></script>
 </body>
