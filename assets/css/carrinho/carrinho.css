@@ -26,10 +26,12 @@
 }
 
 .cart_item_remove{
+    margin-left: 5%;
     outline: NONE;
     border: 0px;
     background-color: transparent;
-    width: 5%;
+    height: 100%;
+    width: 100%;
     cursor: pointer;
 }
 
@@ -65,12 +67,43 @@
     gap: 5px;
 }
 
+.item_counter{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    width: 15%;
+    height: 2.5vh;
+}
+
+.item_quantity{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.quantity_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    height: 90%;
+
+ 
+}
+
 .quantity_button {
     background-color: #ddd;
     border: none;
     padding: 5px;
     cursor: pointer;
     border-radius: 4px;
+    border: 0px ;
+    background-color: rgb(240, 240, 240);
 }
 
 .quantity_input {

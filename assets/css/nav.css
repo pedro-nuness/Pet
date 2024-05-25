@@ -86,7 +86,7 @@
 }
 
 .top_button:hover{
-    transform: 0.5s ease;
+    transition: 0.5s ease;
     transform: scale(1.3);
 }
 
@@ -158,4 +158,21 @@ h2{
     border: 1px solid black;
     width: 15%;
     height: 100%;
+}
+
+#product_counter {
+    position: relative;
+    top: -10px; /* Ajuste a distância do topo conforme necessário */
+    left: 20px; /* Ajuste a distância da esquerda conforme necessário */
+    background-color: red;
+    color: white;
+    border-radius: 25%;
+    padding: 5px 8px;
+    font-size: 0.8em;
+    font-weight: bold;
+    width: 5%; /* Ajuste o tamanho conforme necessário */
+    height: 25%; /* Ajuste o tamanho conforme necessário */
+    display: none;
+    justify-content: center;
+    align-items: center;
 }

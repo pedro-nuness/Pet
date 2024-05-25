@@ -1,7 +1,18 @@
-function AddToCart(produto){
-    let cart = JSON.parse(localStorage.getItem('carrinho')) || [];
-    cart.push(produto);
-    localStorage.setItem('carrinho', JSON.stringify(cart));
+
+
+// Function to add an item to the cart
+function addToCart(produto) {
+
+    let Cart = JSON.parse(localStorage.getItem('carrinho')) || [];
+
+    const index = Cart.findIndex(item => item.nome === produto.nome);
+    if (index > -1) {
+        Cart[index].quantidade += 1;
+    } else {
+        produto.quantidade = 1;
+        Cart.push(produto);
+    }
+    localStorage.setItem('carrinho', JSON.stringify(Cart));
 }
 
 function PushElement(){
