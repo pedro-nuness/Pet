@@ -1,0 +1,59 @@
+{
+        imageNumber: 1,
+        name: "Anti Pulgas e Carrapatos NexGard Spectra para Cães de 2 a 3,5kg",
+        price: "46,90"
+    },
+
+{
+        imageNumber: 2,
+        name: "Antipulgas e Carrapatos NexGard Spectra para Cães de 3,6 a 7,5kg",
+        price: "87,90"
+    },
+
+{
+        imageNumber: 3,
+        name: "Antipulgas e Carrapatos NexGard para Cães de 4,1 a 10kg",
+        price: "56,90"
+    },
+
+{
+        imageNumber: 4,
+        name: "Antipulgas Simparic 20 mg para cães 5,1 a 10 kg - Zoetis",
+        price: "32,90"
+    },
+
+{
+        imageNumber: 5,
+        name: "Antipulgas e Carrapatos Bravecto MSD para Cães de 4,5 a 10 kg",
+        price: "65,90"
+    },
+
+{
+        imageNumber: 6,
+        name: "Antipulgas e Carrapatos Bravecto MSD para Cães de 10 a 20 kg",
+        price: "14,90"
+    },
+
+{
+        imageNumber: 7,
+        name: "Antipulgas e Carrapatos Bravecto MSD para Cães até 4,5 kg",
+        price: "54,90"
+    },
+
+{
+        imageNumber: 8,
+        name: "Antipulgas e Carrapatos Bravecto MSD para Cães de 40 a 56 kg",
+        price: "87,90"
+    },
+
+{
+        imageNumber: 9,
+        name: "Antipulgas e Carrapatos Bravecto MSD para Cães de 20 a 40 kg",
+        price: "95,90"
+    },
+
+{
+        imageNumber: 10,
+        name: "Coleira Antiparasitas Scalibor MSD",
+        price: "105,90"
+    },

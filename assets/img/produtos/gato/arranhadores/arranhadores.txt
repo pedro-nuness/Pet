@@ -1,0 +1,53 @@
+{
+        imageNumber: 1,
+        name: "Poste Arranhador Petz para Gatos - Cores Sortidas",
+        price: "99,90"
+    },
+
+{
+        imageNumber: 2,
+        name: "Arranhador Cansei de Ser Gato Curva para Gatos",
+        price: "199,90"
+    },
+
+{
+        imageNumber: 3,
+        name: "Arranhador Castelo de Papelão Cansei de Ser Gato",
+        price: "129,90"
+    },
+
+{
+        imageNumber: 4,
+        name: "Arranhador TV Tubo de Papelão Cansei de Ser Gato",
+        price: "149,90"
+    },
+
+{
+        imageNumber: 5,
+        name: "Brinquedo Arranhador São Pet Olimpus para Gatos Marrom",
+        price: "999,90"
+    },
+
+{
+        imageNumber: 6,
+        name: "Brinquedo Arranhador São Pet Big Ben para Gatos Marrom",
+        price: "799,90"
+    },
+
+{
+        imageNumber: 7,
+        name: "Brinquedo Arranhador São Pet Casa de Cuco Marrom para Gatos",
+        price: "549,90"
+    },
+
+{
+        imageNumber: 8,
+        name: "Brinquedo Arranhador São Pet para Gatos Tobogã Marrom",
+        price: "699,90"
+    },
+
+{
+        imageNumber: 9,
+        name: "Brinquedo Arranhador São Pet Olimpus Escorregador Marrom para Gatos",
+        price: "899,90"
+    },
