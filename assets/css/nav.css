@@ -183,7 +183,7 @@ h2{
     align-items: center;
 }
 
-.options{
+#options{
     display: none;
 }
 
@@ -252,17 +252,17 @@ h2{
         font-size: 2vh;
     }
 
-    .options{
-        position: absolute;
+    #options{
+        position: fixed;
         display: flex;
         align-items: center;
         justify-content: center; 
-        left: 90%;
+        left: 80%;
         top: 2vh;
         display: flex;
         height: 5vh;
         width: 5vh;
-       
+        z-index: 5;
     }
 
     .options > .material-symbols-outlined{

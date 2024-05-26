@@ -370,9 +370,10 @@ let productInfo = [
 
 // Função para criar objetos a partir de pares de chave-valor
 function createProductObject(imageNumber, name, description, price, tipo, categoria) {
-    console.log(categoria);
+    let newName = categoria.normalize('NFD').replace(/[\u0300-\u036f]/g, "");
+    console.log(newName);
     return {
-        imagem: `assets/img/produtos/${tipo}/${categoria}/${imageNumber}.jpg`,
+        imagem: `assets/img/produtos/${tipo}/${newName}/${imageNumber}.jpg`,
         //                  produtos\cachorro\caixasdetransporte/
         nome: name,
         descrição: description,
