@@ -371,7 +371,6 @@ let productInfo = [
 // Função para criar objetos a partir de pares de chave-valor
 function createProductObject(imageNumber, name, description, price, tipo, categoria) {
     let newName = categoria.normalize('NFD').replace(/[\u0300-\u036f]/g, "");
-    console.log(newName);
     return {
         imagem: `assets/img/produtos/${tipo}/${newName}/${imageNumber}.jpg`,
         //                  produtos\cachorro\caixasdetransporte/
@@ -414,15 +413,23 @@ function createProductElement(produtos, target) {
         imgButtonDiv.classList.add("product_img_button");
        
 
-        // Criando o botão <button class="product_add_cart_button">
-        var addButton = document.createElement("button");
-        addButton.classList.add("product_add_cart_button");
-        addButton.addEventListener("click", () => {AddToCart(produto)});
-    
-        // Criando o ícone <span class="material-symbols-outlined">add_shopping_cart</span>
         var addIcon = document.createElement("span");
         addIcon.classList.add("material-symbols-outlined");
         addIcon.textContent = "add_shopping_cart";
+
+        // Criando o botão <button class="product_add_cart_button">
+        var addButton = document.createElement("button");
+        addButton.classList.add("product_add_cart_button");
+        addButton.addEventListener("click", () => {
+            
+            AddToCart(produto);
+            addIcon.innerHTML = "check";
+        
+        
+        });
+    
+        // Criando o ícone <span class="material-symbols-outlined">add_shopping_cart</span>
+     
 
         // Adicionando o ícone ao botão
         addButton.appendChild(addIcon);
