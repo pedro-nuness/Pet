@@ -28,7 +28,7 @@ function PushElement(){
     ProductPrice.innerHTML = "R$" +  item[0].preço
     ProductName.innerHTML = `<h2>${ item[0].nome}</h2>`
 
-    document.getElementById("cart").addEventListener("click", () => AddToCart(item[0]));
+    document.getElementById("cart").addEventListener("click", () => addToCart(item[0]));
 }
 
 PushElement();
