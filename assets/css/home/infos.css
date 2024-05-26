@@ -23,6 +23,7 @@
 .info{
     font-size: 95%;
     padding: 2%;
+    padding-bottom: 0;
     margin: 2%;
     background-color: transparent;
     width: 95%;
@@ -34,4 +35,8 @@
 
 .info > span>h2 {
     color: rgb(60, 60, 60);
+}
+
+.info p {
+    margin-bottom: 0;
 }
