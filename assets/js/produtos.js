@@ -415,17 +415,21 @@ function createProductElement(produtos, target) {
 
         var addIcon = document.createElement("span");
         addIcon.classList.add("material-symbols-outlined");
+        addIcon.style.transition = ".5s ease-in";
         addIcon.textContent = "add_shopping_cart";
 
         // Criando o botão <button class="product_add_cart_button">
         var addButton = document.createElement("button");
         addButton.classList.add("product_add_cart_button");
         addButton.addEventListener("click", () => {
-            
-            AddToCart(produto);
+            AddToCart(produto); 
             addIcon.innerHTML = "check";
-        
-        
+            addIcon.style.opacity = 0;
+            setTimeout(() => {
+                addIcon.style.opacity = 1;
+                addIcon.innerHTML = "add_shopping_cart";
+            }, 500);
+    
         });
     
         // Criando o ícone <span class="material-symbols-outlined">add_shopping_cart</span>

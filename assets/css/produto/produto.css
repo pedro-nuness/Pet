@@ -97,3 +97,41 @@ main {
     margin-top: 1rem;
 }
 
+
+
+/* Define styles for screens between 40px and 900px */
+@media screen and (min-width: 300px) and (max-width: 1100px) {
+  .product_area{
+    padding-top: 40%;
+  }
+
+  .product_img_area{
+    width: 80%;
+  }
+
+  .product_info{
+    flex-direction: column;
+  }
+
+  .product_name h2{
+    font-size: 3vh;
+  }
+
+  .product_info_area{
+    align-items: center;
+    width: 100%;
+  }
+
+  .product_buttons{
+  
+    flex-direction: column;
+  }
+
+  #buy{
+    width: 120%;
+  }
+  #cart{
+    width: 120%;
+  }
+
+}
