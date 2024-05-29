@@ -3,7 +3,6 @@
     align-items: center;
     justify-content: center;
     height: 50vh;
-
     width: 99%;
 }
 
@@ -59,4 +58,13 @@
     justify-content: center;
     height: 100%;
     opacity: 1;
+}
+
+/* Define styles for screens between 40px and 900px */
+@media screen and (min-width: 300px) and (max-width: 1100px) {
+    .carrossel{
+        padding-top: 15vh;
+        height: 20vh;
+    }
+
 }

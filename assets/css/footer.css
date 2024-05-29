@@ -24,3 +24,18 @@ footer{
 .textuais p {
     margin: 0;
 }
+
+/* Define styles for screens between 40px and 900px */
+@media screen and (min-width: 300px) and (max-width: 1100px) {
+    footer{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        height: 100%;
+        font-size: 2.5vh;
+        text-align: center;
+    }
+    
+
+}
