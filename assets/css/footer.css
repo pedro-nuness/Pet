@@ -31,10 +31,12 @@ footer{
     background-color: #00A1E4;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 30px;
 }
 
 #social h2 {
+    width: auto;
     text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.37);
     font-weight: bold;
     margin-top: 0px;
@@ -46,10 +48,12 @@ footer{
 #redesocial {
     display: flex;
     justify-content: space-evenly;
-    padding: 0px;
+    padding: 0px 0px 30px 0px;
+    width: auto;
 }
 
 #redesocial div {
+    width: auto;
     cursor: pointer;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.233);
     padding: 10px;
@@ -57,6 +61,7 @@ footer{
 }
 
 #pinto {
+    width: auto;
     background-color: #f7f7f7;
     transition: .5s ease;
 }
@@ -67,6 +72,7 @@ footer{
 }
 
 #cu {
+    width: auto;
     background-color: white;
     transition: .5s ease;
 }
