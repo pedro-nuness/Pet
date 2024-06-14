@@ -25,6 +25,57 @@ footer{
     margin: 0;
 }
 
+#social {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.233);
+    border-radius: 5px;
+    background-color: #00A1E4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#social h2 {
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.37);
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px 40px 0px 10px;
+    font-size: 1.2em;
+}
+
+#redesocial {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px;
+}
+
+#redesocial div {
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.233);
+    padding: 10px;
+    border-radius: 50px 50px;
+}
+
+#pinto {
+    background-color: #f7f7f7;
+    transition: .5s ease;
+}
+
+#pinto:hover {
+    transition: .3s ease;
+    transform: scale(1.1);
+}
+
+#cu {
+    background-color: white;
+    transition: .5s ease;
+}
+
+#cu:hover {
+    transition: .3s ease;
+    transform: scale(1.1);
+}
+
 /* Define styles for screens between 40px and 900px */
 @media screen and (min-width: 300px) and (max-width: 1100px) {
     footer{
