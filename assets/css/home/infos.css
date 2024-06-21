@@ -2,7 +2,7 @@
     margin-top: 2%;
      margin-bottom: 2%;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-around;
     flex-direction: row;
     width: 90%;
@@ -23,7 +23,7 @@
 .info{
     font-size: 95%;
     padding: 2%;
-    padding-bottom: 0;
+    padding-bottom: 2%;
     margin: 2%;
     background-color: transparent;
     width: 95%;

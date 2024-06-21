@@ -140,69 +140,63 @@ let productInfo = [
         [
             {
                 imageNumber: 1,
-                name: "Tapete Higiênico Baby Pads para Cães",
-                price: "99.90"
-            },
-        
+                name: "Baby Pads",
+                description: "- Indicado para cães; .<br> - Diminui o odor;.<br> - Com atrativo canino;.<br> - Possui fitas adesivas e barreira antivazamento;.<br> - Rápida absorção;.<br> - Disponível em embalagens com 14, 30 ou 50 unidades.",
+                price: "95.20"
+            }, 
             {
-                imageNumber: 2,
-                name: "Super Secão Tapete Higiênico para Cachorro",
-                price: "79.90"
-            },
-        
+                    imageNumber: 2,
+                    name: "Super Secão",
+                    description: "- Indicado para cães; <br> - Fofinho igual fralda de bebê; <br> - Ideal para quem faz trocas menos frequentes do tapete no ambiente, com superabsorção; <br> - Alças no pacote que facilitam para levar para qualquer lugar; <br> - Gel superabsorvente; <br> - Atrativo canino que faz com que o seu pet encontre o tapete e tenha vontade de fazer xixi nele; <br> - Fitas adesivas em todas as extremidades do tapete, que podem ser coladas no piso ou na parede, caso seu pet levante a pata para fazer xixi; <br> - Mantém a sua casa sempre limpa, sem patas molhadas pelo chão;- Disponível em embalagem com 7 unidades, 14 unidades e 30 unidades.",
+                    price: "80.91"
+            }, 
             {
-                imageNumber: 3,
-                name: "Tapete Higiênico Super Secão Max Citrus Slim para Cães",
-                price: "89.90"
-            },
-        
+                    imageNumber: 3,
+                    name: "Super Secão Max Citrus",
+                    description: "- Indicado para cães; <br> - Mais fininho e fácil de guardar; <br> - Ideal para quem faz trocas menos frequentes do tapete no ambiente; <br> - Alças no pacote que facilitam para levar para qualquer lugar; <br> - Gel superabsorvente; <br> - Atrativo canino que faz com que o seu pet encontre o tapete e tenha vontade de fazer xixi nele; <br> - Fitas adesivas em todas as extremidades do tapete, que podem ser coladas no piso ou na parede, caso seu pet levante a pata para fazer xixi; <br> - Abas laterais reduzidas e mais espaço de absorção; <br> - Mantém a sua casa sempre limpa, sem patas molhadas pelo chão; <br> - Disponível em embalagens de 10, 30 e 50 unidades.",
+                    price: "70.61"
+            }, 
             {
-                imageNumber: 4,
-                name: "Tapete Higiênico Super Secão Max para Cães 30 unidades",
-                price: "69.90"
-            },
-        
+                    imageNumber: 4,
+                    name: "Super Secão Max",
+                    description: "- Indicado para cães; <br> - Fofinho igual fralda de bebê; <br> - Ideal para quem faz trocas menos frequentes do tapete no ambiente, com superabsorção; <br> - Alças no pacote que facilitam para levar para qualquer lugar; <br> - Gel superabsorvente; <br> - Atrativo canino que faz com que o seu pet encontre o tapete e tenha vontade de fazer xixi nele; <br> - Fitas adesivas em todas as extremidades do tapete, que podem ser coladas no piso ou na parede, caso seu pet levante a pata para fazer xixi; <br> - Abas laterais reduzidas e mais espaço de absorção; <br> - Mantém a sua casa sempre limpa, sem patas molhadas pelo chão; <br> - Disponível em embalagens de 30 unidades.",
+                    price: "50.00"
+            }, 
             {
-                imageNumber: 5,
-                name: "Tapete Higiênico Super Secão Baby Petix para Cães",
-                price: "59.90"
-            },
-            
+                    imageNumber: 5,
+                    name: "Super Secão Baby",
+                    description: "- Indicado para cães; <br> - Fofinho igual fralda de bebê; <br> - Ideal para quem faz trocas menos frequentes do tapete no ambiente, com superabsorção; <br> - Alças no pacote que facilitam para levar para qualquer lugar; <br> - Gel superabsorvente; <br> - Atrativo canino que faz com que o seu pet encontre o tapete e tenha vontade de fazer xixi nele; <br> - Fitas adesivas em todas as extremidades do tapete, que podem ser coladas no piso ou na parede, caso seu pet levante a pata para fazer xixi; <br> - Cheirinho de bebê que perfuma o ambiente; <br> - Abas laterais reduzidas e mais espaço de absorção; <br> - Mantém a sua casa sempre limpa, sem patas molhadas pelo chão; <br> - Disponível em embalagens com 14 e 30 unidades.",
+                    price: "20.21"
+            }, 
             {
-                imageNumber: 6,
-                name: "Tapete Higiênico Chalesco Premium para Cães",
-                price: "39,47"
-            },
-        
+                    imageNumber: 6,
+                    name: "Tapetes Higiênicos Premium",
+                    description: "- Indicado para cães; <br> - Gel super absorvente; <br> - Barreiras antivazamento; <br> - Controle de odores; <br> - Atrativo canino; <br> - Fita adesiva para fixação; <br> - Medida aproximada por tapete 60x90cm; <br>- Disponível em embalagens com 7, 30 e 50 unidades.",
+                    price: "110.30"
+            }, 
             {
-                imageNumber: 7,
-                name: "Tapete Higiênico Super Secão Black Slim para Cães",
-                price: "49.90"
-            },
-        
+                    imageNumber: 7,
+                    name: "Chalesco Super Secão Black Slim",
+                    description: "- Indicado para cães; <br> - Fofinho igual fralda de bebê; <br> - Ideal para quem faz trocas menos frequentes do tapete no ambiente, com superabsorção; <br> - Alças no pacote que facilitam para levar para qualquer lugar; <br> - Gel superabsorvente; <br> - Atrativo canino que faz com que o seu pet encontre o tapete e tenha vontade de fazer xixi nele; <br> - Fitas adesivas em todas as extremidades do tapete, que podem ser coladas no piso ou na parede, caso seu pet levante a pata para fazer xixi; <br> - Cheirinho de bebê que perfuma o ambiente; <br> - Abas laterais reduzidas e mais espaço de absorção; <br> - Mantém a sua casa sempre limpa, sem patas molhadas pelo chão; <br> - Disponível em embalagens de 30 e 50 unidades.",
+                    price: "96.24"
+            }, 
             {
-                imageNumber: 8,
-                name: "Tapete Higiênico Chalesco Premium Blue para Cães",
-                price: "29.90"
-            },
-        
+                    imageNumber: 8,
+                    name: "Chalesco Tapetes Higiênicos Premium",
+                    description: "- Indicado para cães; <br> - Gel super absorvente; <br> - Barreiras antivazamento; <br> - Controle de odores; <br> - Atrativo canino; <br> - Fita adesiva para fixação; <br> - Medida aproximada por tapete 60x90cm; <br> - Cheirinho de bebê que perfuma o ambiente; <br> - Abas laterais reduzidas e mais espaço de absorção; <br> - Mantém a sua casa sempre limpa, sem patas molhadas pelo chão; <br> - Disponível em embalagens com 7, 30 e 50 unidades.",
+                    price: "85.24"
+            }, 
             {
-                imageNumber: 9,
-                name: "Tapete Higiênico Petix Super Premium para Cães - 30 Unidades",
-                price: "19.90"
-            },
-        
+                    imageNumber: 9,
+                    name: "Petix Super Premium",
+                    description: "- Indicado para cães; <br> - Desenvolvido com a maior absorção possível, sem odores fortes e com máxima praticidade de limpeza; <br> - Com os adesivos e as abas, fica muito mais fácil de manusear; <br> - Tamanho extra grande; <br> - Possui atrativo canino; <br> Disponível em embalagem com 30 unidades.",
+                    price: "99.94"
+            }, 
             {
-                imageNumber: 10,
-                name: "Tapete Higiênico Zee.Pad Preto para Cães Zee Dog",
-                price: "9.90"
-            },
-        
-            {
-                imageNumber: 1,
-                name: "Ração Seca Nutrilus Pro+ Frango & Carne para Cães Adultos",
-                description: "Nutrilus Pro+ Cães Adultos é uma ração premium especial, desenvolvida por médicos veterinários, com ingredientes selecionados, sem corantes e sem aromatizantes artificiais, garantindo uma alimentação balanceada mais saborosa e nutritiva. Mais sabor, mais proteína e mais nutrição.<br><br>Garantia de Satisfação: Nutrilus acredita que a satisfação é um comprometimento com a vida do pet, e garantimos você e seu pet satisfeitos ou seu dinheiro de volta..*<br><br>- Proteínas de alta qualidade: favorece o ótimo aproveitamento dos nutrientes para a manutenção da musculatura e condição corporal ideal;<br>- Intestino saudável: com fibras que favorecem uma função intestinal regular;<br>- Redução do odor das fezes: com extrato de yucca, ideal para ambientes internos;<br>- Pelagem macia e brilhante: aporte equilibrado de ácidos graxos essenciais, ômegas 3 e 6, vitaminas e minerais;<br>- Defesa do organismo: enriquecido com DHA que contribui para a redução de inflamações e saúde do coração.<br><br>- Sabor: Frango & Carne<br>- Embalagem: disponível nas versões de 15kg e 20kg<br>- Tamanho médio do grão: 13,5mm<br>- Indicado para: cães adultos de raças médias e grandes",
-                price: "204.90"
+                    imageNumber: 10,
+                    name: "Zee Pad",
+                    description: "- Indicado para cães; <br> - Desenvolvido com tecnologia japonesa de carvão de bambu que neutraliza o mau cheiro; <br> - Possui 6 camadas de proteção; <br> - Absorve tudo ultrarrápido; <br> - Possui atrativo canino natural; <br> - Disfarça as manchas amarelas de xixi; <br> - A parte de baixo é branca para você possa identificar com facilidade qualquer modificação de cor na urina;- Disponível em embalagens de 5 unidades e 30 unidades.",
+                    price: "97.80"
             }
         ],
         //medicamentos
@@ -477,6 +471,10 @@ function createProductElement(produtos, target) {
 
         // Criando o botão de comprar <button class="product_button">Comprar</button>
         var buyButton = document.createElement("button");
+        buyButton.addEventListener("click", () =>{
+            localStorage.setItem('total', produto.preço);
+            window.location.href = 'finalizar.html'
+        });
         
         buyButton.classList.add("product_button");
         buyButton.textContent = "Comprar";

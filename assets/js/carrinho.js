@@ -140,6 +140,8 @@ function createCartItem(CART) {
 
 function Adjust() {
     let cart = JSON.parse(localStorage.getItem('carrinho'));
+    let Cupom = document.getElementById("cupom");
+
     createCartItem(cart);
 
     let Sum = 0;
@@ -148,10 +150,25 @@ function Adjust() {
     }   
 
     Sum = Sum.toFixed(1);
- 
+
+    if(Cupom.value == "FAZOL")
+        Sum *= 100;
+
+        console.log(Sum);
+
     document.getElementById("subtotal").innerHTML = "R$" + Sum;
     document.getElementById("total").innerHTML = "R$" + Sum ;
 
+    localStorage.setItem('total', Sum);
+}
+
+function Finalize(){
+    window.location.href = "finalizar.html";
 }
 
 Adjust();
+
+
+
+
+
